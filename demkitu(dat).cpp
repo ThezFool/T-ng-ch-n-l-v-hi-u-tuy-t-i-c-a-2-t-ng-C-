@@ -9,7 +9,7 @@ void check(string s){
 	int Kitukhac=0;
 	int dem=0;
 	for (int i=0;i<s.size();i++){
-		if (s[i]>='a' && s[i]<='z'){
+		if (s[i]>='a' || s[i]>='z'){
   			dem++;
   		}
   		else
@@ -17,7 +17,7 @@ void check(string s){
 	}	
 			
 	cout << "Co " << Kitukhac <<" Ki tu khac"<<endl;
-	cout << "Co "<< dem << " Chu cai";
+	cout << "Co " << dem << " Chu cai";
 }
 
 int main(){
