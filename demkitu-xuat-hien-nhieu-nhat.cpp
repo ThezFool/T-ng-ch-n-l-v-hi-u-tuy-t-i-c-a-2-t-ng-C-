@@ -4,7 +4,7 @@
 using namespace std;
 
 int asciiarray[256];
-//Tra gi· tri ascii cua phan tu co so lan xuat hieen nhieu nhat.
+//Tra gi√° tri ascii cua phan tu co so lan xuat hieen nhieu nhat.
 int findindex(string s){
 	for (int i=0;i<256;i++){
 		asciiarray[i]=0;
